@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#navigation{
+    height: 90px;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+#navWrapper{
+    width: 1140px;
+}
