@@ -69,4 +69,13 @@ html{
     height: 1000px;;
     background-color: aliceblue;
     margin: 0 auto;
+    position: relative;
+}
+
+#overviewImg{
+    transform: scale(0.72);
+    position: absolute;
+    top: -40px;
+    left: -168px;
+    
 }
