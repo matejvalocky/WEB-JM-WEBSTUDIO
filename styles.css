@@ -19,14 +19,14 @@ html{
 #navigation{
     height: 90px;
     width: 100%;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
 }
 
 #navWrapper{
     width: 1150px;
     height: 90px;
     margin: 0 auto;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 #logo{
@@ -59,4 +59,14 @@ html{
     background-image: url(/img/banner.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+
+/* SECTION OVERVIEW *********************************/
+
+#overview{
+    width: 1150px;
+    height: 1000px;;
+    background-color: aliceblue;
+    margin: 0 auto;
 }
