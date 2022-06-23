@@ -209,3 +209,33 @@ html{
     left: 702px;
     top: 80px;
 }
+
+.stvrtina{
+    width: 250px;
+    height: 210px;
+    background-color: blue;
+    margin-top: 50px;
+    margin-left: 43px;
+
+}
+
+.floatLeft{
+    float: left;
+}
+
+.clearFix{
+    clear: both;
+}
+
+
+
+.overviewHalf{
+   margin-top: 423px;
+    width: 630px;
+    height: 560px;
+    float: right;
+    position: relative;
+    background-color: red;
+    opacity: 80%;
+
+}
