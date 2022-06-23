@@ -30,11 +30,17 @@ html{
     width: 1150px;
     height: 90px;
     margin: 0 auto;
-    /* background-color: aqua; */
+    position: relative;
+  
 }
 
 #logo{
-    position: relative;
+    position: absolute;
+}
+
+#menuButton{
+    float: right;
+    margin-top: 35px;
 }
 
 #logo img{
