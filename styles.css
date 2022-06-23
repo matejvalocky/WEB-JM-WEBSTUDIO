@@ -213,10 +213,15 @@ html{
 .stvrtina{
     width: 250px;
     height: 210px;
-    background-color: blue;
-    margin-top: 50px;
-    margin-left: 43px;
+    background-color:white;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: -20px;
 
+}
+
+.marginTop{
+    margin-top: 30px;
 }
 
 .floatLeft{
@@ -236,6 +241,6 @@ html{
     float: right;
     position: relative;
     background-color: red;
-    opacity: 80%;
+    /* opacity: 80%; */
 
 }
