@@ -7,6 +7,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: "Lato", sans-serif;
 }
 
 html{
@@ -23,6 +24,7 @@ html{
     background-color: white;
     /* border: 1px red solid; */
     margin-top: -90px;
+    z-index: 1;
     
 }
 
@@ -38,16 +40,17 @@ html{
     position: absolute;
 }
 
-#menuButton{
+/* #menuButton{
     float: right;
     margin-top: 35px;
-}
+} */
 
 #logo img{
     transform: scale(0.24);
     position: absolute;
     top: -120px;
     left: -128px;
+    
 }
 
 #webstudio{
@@ -55,22 +58,86 @@ html{
     padding-top: 30px;
     font-size: 30px;
     text-transform: uppercase;
+    
 }
 
-#webstudio > p{
-    font-family: Noto Sans;
+#sideNavBtn{
+    position: absolute;
+    z-index: 2;
 }
+
+
+ /*SIDE MENU VYHRADENE MIESTO ***********************************/
+
+#sideNavigation{
+    width: 28px;
+    height: 90px;
+    /* background-color: red; */
+    float: right;
+    position: relative;
+ }
+
+ /*SIDE MENU IN NAVIGATION ***********************************/
+ 
+ .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  #menuBtn{
+    font-size: 30px;
+    cursor: pointer;
+    /* background-color: red; */
+    top: 23px;
+    position: absolute;
+  }
+ 
+
 
 /* BANNER ************************************************/
 
 #banner{
     width: 100%;
     height: 684px;
-    background-image: url(/img/banner-jpg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 90px;
     position: relative;
+    z-index: 0;
 }
 
 .naseSluzby{

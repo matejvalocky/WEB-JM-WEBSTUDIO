@@ -5,43 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <script src="/script.js"></script>
     <title>JM-WEBSTUDIO</title>
 </head>
-<body>
-    <nav id="navigation">
-        <div id="navWrapper">
-            <div id="logo">
-                <img src="/img/logo-black-JM.png" alt="">
-                <p id="webstudio">
-                    webstudio
+
+    <body>
+        
+            <nav id="navigation">
+            <div id="navWrapper">
+                <div id="logo">
+                    <img src="/img/logo-black-JM.png" alt="">
+                    <p id="webstudio">
+                        webstudio
+                    </p>
+                </div>
+
+                <!-- SIDE NAVIGATION -->
+               
+               <div id="sideNavigation">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Clients</a>
+                    <a href="#">Contact</a>
+                  </div>
+                  
+                 
+                  <span id="menuBtn" onclick="openNav()">&#9776; </span>
+               </div>
+
+
+
+                <!-- SIDE NAVIGATION -->
+
+
+                
+            </div>
+
+                
+                
+                  
+                   
+                
+            </div>
+        </nav>
+    
+        <section id="banner">
+            <img src="/img/banner-jpg.jpg" alt="">
+            <p class="naseSluzby">
+                Naše služby
+            </p>
+    
+            <p class="vytvarame">
+                Vytvárame <br> webstránky
+            </p>
+    
+            <div class="viacInfo">
+                <p class="textViacInfo">
+                    Viac info...
                 </p>
             </div>
-            <div id="menuButton">
-                <img src="/img/menu-button.png" alt="">
-            </div>
-        </div>
-    </nav>
-
-    <section id="banner">
-        <p class="naseSluzby">
-            Naše služby
-        </p>
-
-        <p class="vytvarame">
-            Vytvárame <br> webstránky
-        </p>
-
-        <div class="viacInfo">
-            <p class="textViacInfo">
-                Viac info...
-            </p>
-        </div>
-    </section>
-
-    <section id="overview">
-        <img src="/img/overview-img.jpg" alt="" id="overviewImg">
-        <img src="/img/dots-png.png" alt="" id="dotsPng">
-    </section>
+        </section>
     
-</body>
+        <section id="overview">
+            <img src="/img/overview-img.jpg" alt="" id="overviewImg">
+            <img src="/img/dots-png.png" alt="" id="dotsPng">
+        </section>
+    
+           
+        
+       
+        
+    </body>
+
+
 </html>
