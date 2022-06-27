@@ -211,12 +211,15 @@ html{
 }
 
 .stvrtina{
+    position: relative;
     width: 250px;
     height: 210px;
-    background-color:white;
+    background-color: white;
     margin-top: 80px;
     margin-left: 50px;
     margin-right: -20px;
+    z-index: 4;
+    
     
    
 
@@ -237,13 +240,43 @@ html{
 
 
 .overviewHalf{
-   margin-top: 360px;
+    margin-top: 360px;
     width: 630px;
     height: 560px;
+    background-image: url(/img/lines.png);
     float: right;
-    position: relative;
-    background-color: red;
-    z-index: 1;
     
+    /* background-color: red; */
+    z-index: -1;
+    
+
+}
+
+
+.circle{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color:  #F2B82D;
+    border-radius: 50%;
+    z-index: 5;
+    margin-left: 70px;
+    top: 20px;
+    
+}
+
+.circleDescription {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 130px;
+    
+}
+
+.glyphicon{
+    
+    
+    transform: scale(0.5);
+    margin-left: -13px;
+    margin-top: -10px;
 
 }
