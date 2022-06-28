@@ -291,7 +291,7 @@ html{
 
 #overviewDown{
     height: 880px;
-    background-color: green;
+    /* background-color: green; */
     position: relative;
 }
 
@@ -328,4 +328,24 @@ html{
     text-align: center;
     padding: 30px; 
     font-size: 18px;
+}
+
+.moreInfo{
+    position: absolute;
+    width: 165px;
+    height: 48px;
+    background-color: black;
+    left: 175px;
+   
+}
+
+.moreInfo p{
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    
+    
 }
