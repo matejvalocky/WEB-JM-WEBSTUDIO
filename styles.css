@@ -366,7 +366,7 @@ html{
 #mockupDesignWrapper{
     width: 1150px;
     height: 1513px;
-    background-color: white;
+    /* background-color: white; */
     margin: 0 auto;
     position: relative;   
 }
@@ -379,14 +379,14 @@ html{
 .mockupDesignColoumn{
     width: 280px;
     height: 820px;
-    background-color: red;
+    background-color: white;
     
 }
 
 #mockupDesignWrapperRight{
     width: 885px;
     height: 820px;
-    background-color: green;
+    /* background-color: green; */
     position: absolute;
     top: 630px;
     left: 285px;
