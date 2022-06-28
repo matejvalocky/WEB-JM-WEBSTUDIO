@@ -349,3 +349,12 @@ html{
     
     
 }
+
+/* SEKCIA MOCKUP DESIGN *********************************/
+
+#mockupDesign{
+    margin-top: 690px;
+    width: 100%;
+    height: 1513px;
+    background-color: #F2B82D;
+}
