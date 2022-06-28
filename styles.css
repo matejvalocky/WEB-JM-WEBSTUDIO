@@ -233,6 +233,10 @@ html{
     float: left;
 }
 
+.floatRight{
+    float: right
+}
+
 .clearFix{
     clear: both;
 }
@@ -357,4 +361,37 @@ html{
     width: 100%;
     height: 1513px;
     background-color: #F2B82D;
+}
+
+#mockupDesignWrapper{
+    width: 1150px;
+    height: 1513px;
+    background-color: white;
+    margin: 0 auto;
+    position: relative;   
+}
+
+#mockupDesignWrapper img{
+    position: absolute;
+    top: 123px;
+}
+
+.mockupDesignColoumn{
+    width: 280px;
+    height: 820px;
+    background-color: red;
+    
+}
+
+#mockupDesignWrapperRight{
+    width: 885px;
+    height: 820px;
+    background-color: green;
+    position: absolute;
+    top: 630px;
+    left: 285px;
+}
+
+.mgRight{
+    margin-right: 22.5px;
 }
