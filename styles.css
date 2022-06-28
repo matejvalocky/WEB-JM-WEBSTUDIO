@@ -308,3 +308,24 @@ html{
     bottom: 550px;
     left: 275px;
 }
+
+.overviewDownTextBanner{
+    position: absolute;
+    width: 510px;
+    height: 435px;
+    left: 640px;
+    bottom: 90px;
+    background-color: #F2F2F2;
+}
+
+.overviewDownTextBanner h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.overviewDownTextBanner p{
+    text-align: center;
+    padding: 30px; 
+    font-size: 18px;
+}
