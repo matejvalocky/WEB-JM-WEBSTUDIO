@@ -292,8 +292,19 @@ html{
 #overviewDown{
     height: 880px;
     background-color: green;
+    position: relative;
 }
 
 #overviewDown img{
     margin-top: 110px;
+}
+
+.overviewDownArea{
+    position: absolute;
+    width: 600px;
+    height: 100px;
+    background-color: #F2B82D; 
+    opacity: 80%;
+    bottom: 550px;
+    left: 275px;
 }
