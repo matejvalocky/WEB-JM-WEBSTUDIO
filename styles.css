@@ -402,6 +402,19 @@ html{
     line-height: 35px;
 }
 
+.viacInfo{
+    text-transform: uppercase;
+    border-bottom: 2px #F2B82D solid;
+    text-align: center;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-weight: bold;
+    
+}
+
+
+
 #mockupDesignWrapperRight{
     width: 885px;
     height: 820px;
