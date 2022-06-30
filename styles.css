@@ -509,14 +509,14 @@ html{
 #ponuknut{
     width: 100%;
     height: 1385px;
-    background-color: #818181;
+    background-color: #F2B82D;
    
 }
 
 .ponuknutWrapper{
     width: 1150px;
     height: 1385px;
-    background-color: red;
+    background-color: #F2B82D;
     margin: 0 auto;
     
 }
@@ -524,7 +524,7 @@ html{
 .ponuknutH1Wrapper {
     width: 100%;
     height: 150px;
-    background-color: aqua;
+    background-color: #F2B82D;
 }
 
 .ponuknutH1Wrapper h1{
@@ -535,13 +535,65 @@ html{
 
 .ponuknutTextWrapper{
     width: 100%;
-    height: 187px;
-    background-color: green;
+    height: 240px;
+    background-color: #F2B82D;
+    
 }
 
 .ponuknutTextWrapper p{
     text-align: center;
-    color: white;
+    color: black;
     font-size: 20px;
-    padding-top: 20px;
+    padding-top: 5px;
+    line-height: 32px;
+    
 }
+
+.ponuknutPrehlad{
+    height: 860px;
+    width: 100%;
+}
+
+.ponuknutPrehladCell{
+    padding-top: 30px;
+    width: 383px;
+    height: 400px;
+    background-color: #F2B82D;
+    /* opacity: 80%; */
+}
+
+.circlePrehlad{
+    width: 100px;
+    height: 100px;
+    background-color: #F2B82D;
+    border-radius: 50%;
+    position: relative;
+    border: 2px white solid;
+}
+
+.circlePrehlad img{
+    transform: scale(0.4);
+    position: absolute;
+    margin-left: -13px;
+    margin-top: -13px;
+}
+
+.nadpisCirclePrehlad{
+    width: 100%;
+    height: 68px;
+    /* background-color: red; */
+}
+
+.nadpisCirclePrehlad h3{
+    text-transform: uppercase;
+    padding: 20px 0 20px 0; 
+    font-size: 25px;
+}
+
+.clanokCirclePrehlad p{
+    padding-top: 25px;
+    line-height: 25px;
+    font-size: 18px;
+    padding-right: 40px;
+}
+
