@@ -520,3 +520,15 @@ html{
     margin: 0 auto;
     
 }
+
+.ponuknutH1Wrapper {
+    width: 100%;
+    height: 150px;
+    background-color: aqua;
+}
+
+.ponuknutH1Wrapper h1{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 57px;
+}
