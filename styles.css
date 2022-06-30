@@ -389,6 +389,19 @@ html{
 
 }
 
+.mockupDesignColoumn h3{
+    text-align: center;
+    margin-top: 250px;
+}
+
+.mockupDesignColoumn p{
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    line-height: 35px;
+}
+
 #mockupDesignWrapperRight{
     width: 885px;
     height: 820px;
