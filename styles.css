@@ -635,7 +635,9 @@ html{
 #ceny{
     width: 100%;
     height: 712px;
-    background-color: #CECECE;
+    background-image: url(/img/architecture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .cenyWrapper{
