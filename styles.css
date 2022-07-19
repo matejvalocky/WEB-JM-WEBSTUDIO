@@ -679,3 +679,37 @@ html{
     font-size: 30px;
 }
 
+.cena h2{
+    text-align: center;
+    margin-top: 70px;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.cenaPopis{
+    color:#818181;
+    text-align: center;
+    padding: 15px 40px;
+    font-size: 17px;
+    
+}
+
+.cenaOdkaz p{
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 2px red solid;
+    
+}
+
+.cenaOdkaz{
+    position: absolute;
+    width: 100px;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.cenaTextWrapper{
+    width: 340px;
+    
+    height: 250px;
+}
