@@ -849,7 +849,7 @@ html{
 .kontaktLeftSide{
     width: 785px;
     height: 610px;
-    background-color: red;
+    /* background-color: red; */
     margin-top: 40px;
 }
 
@@ -859,6 +859,47 @@ html{
     background-color: aqua;
     margin-top: 40px;
 }
+
+.formSize{
+    width: 560px;
+    height: 45px;
+    margin-left: 110px;
+    margin-right: 110px;
+    border: none;
+}
+
+.formSizeMessage{
+    width: 560px;
+    height: 120px;
+    margin-left: 110px;
+    margin-right: 110px;
+    border: none;
+    
+}
+
+.formTextAlign{
+    margin-left: 110px;
+}
+
+
+
+.submitAlign{
+    margin-left: 320px;
+}
+
+.submitProperties{
+    width: 140px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+
+
+}
+
+
+
+
 
 /* PATICKA - FOOTER *************************/
 
