@@ -635,7 +635,7 @@ html{
 #ceny{
     width: 100%;
     height: 712px;
-    background-image: url(/img/architecture.jpg);
+    background-image: url(/img/architecture-opacity.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -647,6 +647,7 @@ html{
     height: 712px;
     /* background-color: red; */
     margin: 0 auto;
+    
 }
 
 .cena{
@@ -659,6 +660,7 @@ html{
     -webkit-box-shadow: -1px 1px 21px -3px rgba(0,0,0,0.63);
     -moz-box-shadow: -1px 1px 21px -3px rgba(0,0,0,0.63);
     margin-top: 120px;
+    
     
     
     
