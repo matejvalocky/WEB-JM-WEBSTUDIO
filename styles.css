@@ -629,3 +629,19 @@ html{
     padding: 15px 10px;
 }
 
+
+/* SEKCIA CENY ******************************/
+
+#ceny{
+    width: 100%;
+    height: 712px;
+    background-color: #CECECE;
+}
+
+.cenyWrapper{
+    width: 1150px;
+    height: 712px;
+    margin: 0 auto;
+    background-color: red;
+}
+
