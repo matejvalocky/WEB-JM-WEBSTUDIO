@@ -597,3 +597,35 @@ html{
     padding-right: 40px;
 }
 
+.zaujali{
+    text-align: center;
+}
+
+.zaujali h3{
+    margin-bottom: 10px;
+}
+
+.zaujali p{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.zaujaliBtn{
+    
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+   
+    margin: 0 auto;
+    display: inline-block;
+    
+    
+}
+
+.zaujaliBtn p{
+    font-size: 18px;
+    padding: 15px 10px;
+}
+
