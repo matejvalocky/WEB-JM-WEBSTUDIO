@@ -729,3 +729,36 @@ html{
     width: 100%;
 
   }
+
+
+  /* SEKCIA POSLEDNE PROJEKTY  ******************************/
+
+  #posledne{
+    
+    width: 100%;
+    height: 210px;
+    background-color: red;
+    
+  }
+
+  .wrapperPosledne h1{
+    
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-top: 50px;
+  }
+
+  .wrapperPosledne{
+    width: 1150px;
+    margin: 0 auto;
+    
+  }
+
+  .borderPosledne{
+    
+    width: 135px;
+    margin: 0 auto;
+    border: 5px black solid;
+    margin-top: 20px;
+  }
