@@ -842,11 +842,23 @@ html{
 }
 
 #kontakt h1{
-    padding-top: 40px;
     font-size: 60px;
-    padding-left: 300px;
+    text-align: center;
 }
 
+.kontaktLeftSide{
+    width: 785px;
+    height: 610px;
+    background-color: red;
+    margin-top: 40px;
+}
+
+.kontaktRightSide{
+    width: 365px;
+    height: 610px;
+    background-color: aqua;
+    margin-top: 40px;
+}
 
 /* PATICKA - FOOTER *************************/
 
