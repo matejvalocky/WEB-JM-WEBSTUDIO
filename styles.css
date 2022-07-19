@@ -651,7 +651,7 @@ html{
     position: relative;
     width: 340px;
     height: 435px;
-    background-color: white;
+    background-color: rgb(242,242,242);
     border-radius: 2em;
     box-shadow: -1px 1px 21px -3px rgba(0,0,0,0.63);
     -webkit-box-shadow: -1px 1px 21px -3px rgba(0,0,0,0.63);
@@ -714,3 +714,8 @@ html{
     
     height: 250px;
 }
+  .poucenie{
+    color:#F2B82D;
+    text-align: center;
+
+  }
