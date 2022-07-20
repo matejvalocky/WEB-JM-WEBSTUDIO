@@ -928,6 +928,8 @@ html{
 
 
 
+
+
 /* PATICKA - FOOTER *************************/
 
 footer{
@@ -936,7 +938,15 @@ footer{
     background-color: #333333;
 }
   
+footer p{
+    text-align: center;
+    color:#f1f1f1;
+}
 
+footer a{
+    color: #F2B82D;
+    text-decoration: none;
+}
 
 
 
