@@ -856,8 +856,9 @@ html{
 .kontaktRightSide{
     width: 365px;
     height: 610px;
-    background-color: aqua;
-    margin-top: 40px;
+    text-align: center;
+    margin-top: 160px;
+    color: #FFFFFF;
 }
 
 .formSize{
@@ -893,8 +894,23 @@ html{
     background-color: black;
     color: white;
     text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
 
 
+}
+
+.kontaktHodiny{
+    margin-top: 70px;
+}
+
+.kontaktMeno{
+    margin-top: 70px;  
+}
+
+.kontaktRightSide img{
+    transform: scale(0.15);
+    margin-top: -80px;
 }
 
 
