@@ -39,6 +39,14 @@
     }
 } 
 
+@media only screen and (max-width: 1160px){
+    .kontaktGlyph{
+        margin-left: 150px;
+        margin-top: -60px;       
+    }
+} 
+
+
 
 @media only screen and (max-width: 1160px){
     .kontaktImgLogo{
@@ -63,10 +71,7 @@
 
 @media only screen and (max-width: 1160px){
     .kontaktLeftSide {
-        position: absolute;
-        width: 72%;
-        margin-right: auto;
-        margin-left: -40px; 
+        width: 80%;
 
         
         
@@ -77,8 +82,21 @@
 
 @media only screen and (max-width: 1160px){
     #kontakt h1 {
-        margin-left: 75px;
+        position: relative;
         text-align: center;
+        margin-left: -500px;
+
+        
+        
+    
+        
+    }
+} 
+
+@media only screen and (max-width: 1160px){
+    .submitAlign {
+        margin-left: 890px;
+        
 
         
         
