@@ -940,7 +940,6 @@ footer{
 }
   
 footer p{
-    text-align: center;
     color:#f1f1f1;
 }
 
@@ -951,11 +950,11 @@ footer a{
 
 .footerWrapper{
     position: relative;
-    width: 1150px;
+    max-width: 1150px;
     height: 90px;
     margin: 0 auto;
+    text-align: center;
     padding-top: 55px;
-    /* background-color: red; */
 }
 
 
