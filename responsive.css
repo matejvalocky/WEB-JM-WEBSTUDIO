@@ -49,3 +49,49 @@
 
 
 
+
+
+@media only screen and (max-width: 1160px){
+    .formSize, .formSizeMessage {
+        width: 100%;
+        
+        
+    
+        
+    }
+} 
+
+@media only screen and (max-width: 1160px){
+    .kontaktLeftSide {
+        position: absolute;
+        width: 72%;
+        margin-right: auto;
+        margin-left: -40px; 
+
+        
+        
+    
+        
+    }
+} 
+
+@media only screen and (max-width: 1160px){
+    #kontakt h1 {
+        margin-left: 75px;
+        text-align: center;
+
+        
+        
+    
+        
+    }
+} 
+
+
+
+
+
+
+
+
+

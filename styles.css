@@ -839,27 +839,31 @@ html{
     width: 100%;
     height: 650px;
     background-color: #F4C53B;
+    margin: 0 auto;
 }
 
 #kontakt h1{
     font-size: 60px;
     text-align: center;
+    
 }
 
 .kontaktLeftSide{
-    width: 785px;
+    width: 68.2%; /* 785px; */ 
     height: 610px;
-    /* background-color: red; */
     margin-top: 40px;
+    
+   
 }
 
 .kontaktRightSide{
-    width: 365px;
+    width: 31.8%; /* 365px; */
     height: 610px;
     text-align: center;
     margin-top: 40px;
     color: #FFFFFF;
-    /* background-color: red; */
+    margin: 0 auto;
+    
 }
 
 .kontaktRightSide h2{
@@ -867,7 +871,7 @@ html{
 }
 
 .formSize{
-    width: 560px;
+    width: 80%; /* 560px; */
     height: 45px;
     margin-left: 110px;
     margin-right: 110px;
@@ -875,7 +879,7 @@ html{
 }
 
 .formSizeMessage{
-    width: 560px;
+    width: 80%; /* 560px; */
     height: 120px;
     margin-left: 110px;
     margin-right: 110px;
@@ -975,6 +979,7 @@ footer a{
 
 
 .wrapper{
+  
     width: 1150px;
     margin: 0 auto;
 }
