@@ -5,11 +5,47 @@
 } */
 
 
+/* KONTAKT SECTION ****************************************/
 
-
-@media only screen and (max-width: 1000px){
-    .className{
-        
+@media only screen and (max-width: 1160px){
+    #kontakt{
+     max-width: 1160px;
+     height: 1200px;
 
     }
 } 
+
+@media only screen and (max-width: 1160px){
+    .kontaktRightSide{
+        position: absolute;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 520px;
+
+
+    }
+} 
+
+
+@media only screen and (max-width: 1160px){
+    .kontaktRightSide h2{
+        font-size: 50px;        
+    }
+} 
+
+@media only screen and (max-width: 1160px){
+    .kontaktRightSide p{
+        font-size: 30px;        
+    }
+} 
+
+
+@media only screen and (max-width: 1160px){
+    .kontaktImgLogo{
+        transform: scale(0.3);
+    }
+} 
+
+
+
+
