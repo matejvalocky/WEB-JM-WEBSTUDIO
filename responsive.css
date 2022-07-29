@@ -127,6 +127,20 @@
 } 
 
 
+@media only screen and (max-width: 640px){
+    .wrapperPosledne h1{
+        font-size: 40px;
+
+    }
+} 
+
+@media only screen and (max-width: 540px){
+    .wrapperPosledne h1{
+        font-size: 35px;
+
+    }
+} 
+
 
 
 
