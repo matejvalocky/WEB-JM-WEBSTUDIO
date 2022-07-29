@@ -826,11 +826,14 @@ html{
     line-height: 30px;
     font-size: 18px;
     text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #zaruka h1{
     padding-top: 100px;
     font-size: 60px;
+    margin-left: 20px;
 }
 
 /* SEKCIA KONTAKT ****************************/
@@ -995,6 +998,6 @@ footer a{
 
 .wrapper{
   
-    width: 1150px;
+    max-width: 1150px;
     margin: 0 auto;
 }
