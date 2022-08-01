@@ -100,8 +100,10 @@ html{
     color: #818181;
     display: block;
     transition: 0.3s;
-   
-    
+    text-align: center;
+    padding-left: 1px;
+    font-size: 14px;
+    text-transform: uppercase;
   }
   
   .sidenav a:hover {
