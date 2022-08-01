@@ -137,9 +137,28 @@
 @media only screen and (max-width: 540px){
     .wrapperPosledne h1{
         font-size: 35px;
+        
 
     }
+
+  
 } 
+
+
+@media only screen and (max-width: 640px){
+    #posledne{
+        height: 100px;
+        
+
+    }
+
+    .wrapperPosledne h1{
+        padding-top: 10px;
+    }
+} 
+
+
+
 
 
 
