@@ -104,6 +104,7 @@ html{
     padding-left: 1px;
     font-size: 14px;
     text-transform: uppercase;
+    line-height: 12px;
   }
   
   .sidenav a:hover {
