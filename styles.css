@@ -770,7 +770,7 @@ html{
 
   #galeria{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
     height: 274px;
@@ -778,19 +778,23 @@ html{
   }
 
   .galeriaImg{
-    /* width: 440px; */
-    width: 25%;
+    width: 100%;
     height: 240px;
-    background-color: green;
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 18px #F2B82D solid;    
   }
 
   .img1{
     background-image: url(/img/garant.jpg);
+    
+   
   }
 
   .img2{
     background-image: url(/img/dodo.jpg);
+    
+    
   }
 
   .img3{
@@ -802,7 +806,7 @@ html{
   }
 
   .imgProperties {
-    width: 440px;
+    width: 100%;
     height: 240px;
     background-size: cover;
     margin: 0 auto;
