@@ -9,16 +9,24 @@ function openNav() {
   }
 
 
-// JQUERY*******************************************//
+// JQUERY ZAČIATOK KÓDU*******************************************//
 
 $(function(){
 
  
 
-  $("#webstudio").click(function() {                    // plynuté presunutie do urcitej sekcie */
+  $("#webstudio").click(function() {                          // plynuté presunutie do urcitej sekcie */
     $('html, body').animate({
-        scrollTop: $(".footerWrapper").offset().top 
-    }, 2000);
+        scrollTop: $(".ponuknutWrapper").offset().top -90     // korekcia vertikalneho posunutia o pixely -90pixelov */
+    }, 1000);
+});
+
+
+
+$(".textViacInfo").click(function() {                         // plynuté presunutie do urcitej sekcie */
+  $('html, body').animate({
+      scrollTop: $("#now").offset().top +90                   // korekcia vertikalneho posunutia o pixely +90pixelov */
+  }, 1000);
 });
 
 
@@ -28,4 +36,12 @@ $(function(){
 
 
 
+
+
+
+
+
+
 });
+
+// JQUERY KONIEC KÓDU*******************************************//
