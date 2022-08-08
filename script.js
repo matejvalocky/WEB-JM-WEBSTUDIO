@@ -15,27 +15,37 @@ $(function(){
 
  
 
-  $("#webstudio").click(function() {                          // plynuté presunutie do urcitej sekcie */
+  $("#webstudio").click(function() {                          // plynuté presunutie do urcitej sekcie - zo sekcie LOGO na vrchu stranky na začiatok stránky"
     $('html, body').animate({
-        scrollTop: $("html, body").offset().top -90     // korekcia vertikalneho posunutia o pixely -90pixelov */
+        scrollTop: $("html, body").offset().top               // korekcia vertikalneho posunutia o pixely -90pixelov */
     }, 1000);
 });
 
 
-
-$(".textViacInfo").click(function() {                         // plynuté presunutie do urcitej sekcie */
+$(".viacInfo0").click(function() {                                 // plynuté presunutie do urcitej sekcie */
   $('html, body').animate({
-      scrollTop: $("#overview").offset().top +900                   // korekcia vertikalneho posunutia o pixely +90pixelov */
+      scrollTop: $("#overview").offset().top +900                    // korekcia vertikalneho posunutia o pixely +90pixelov */
   }, 1000);
 });
 
 
 
-$(".moreInfo").click(function() {                               // plynuté presunutie do urcitej sekcie */
+
+$(".viacInfo").click(function() {                                 // plynuté presunutie do urcitej sekcie */
   $('html, body').animate({
-      scrollTop: $("#ceny").offset().top -90                     // korekcia vertikalneho posunutia o pixely +90pixelov */
+      scrollTop: $("#ceny").offset().top -90                    // korekcia vertikalneho posunutia o pixely +90pixelov */
   }, 1000);
 });
+
+$(".cenaOdkaz").click(function() {                                 // plynuté presunutie do urcitej sekcie */
+  $('html, body').animate({
+      scrollTop: $("#kontakt").offset().top -90                    // korekcia vertikalneho posunutia o pixely +90pixelov */
+  }, 1000);
+});
+
+
+
+
 
 
 
